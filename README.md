@@ -4,15 +4,15 @@
 
 ### index.html（data1.txt）
 
-![PC88Canvas](img/01.png)
-　↓
-![PC88Canvas](img/02.png)
+![PC88Canvas](img/01.png)  
+　↓  
+![PC88Canvas](img/02.png)  
 
 ### index10.html（data10.txt）
 
-![PC88Canvas](img/11.png)
-　↓
-![PC88Canvas](img/12.png)
+![PC88Canvas](img/11.png)  
+　↓  
+![PC88Canvas](img/12.png)  
 
 ## フォーマット
 
