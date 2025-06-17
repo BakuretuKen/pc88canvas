@@ -2,6 +2,12 @@
 
 ## NEC PC8801風 JS Canvas 作画プログラム
 
+[作画開始（data.txt）](https://bakuretuken.github.io/pc88canvas/)
+
+[作画開始（data2.txt）](https://bakuretuken.github.io/pc88canvas/index2.html)
+
+[作画開始（data10.txt）](https://bakuretuken.github.io/pc88canvas/index10.html)
+
 ### index.html（data1.txt）
 
 ![PC88Canvas](img/01.png)  
