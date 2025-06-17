@@ -2,6 +2,8 @@
 
 ## NEC PC8801風 JS Canvas 作画プログラム
 
+パソコン黎明期（？） NEC PC8801 のアドベンチャーゲーム作画処理を JavaScript で再現。
+
 [作画開始（data.txt）](https://bakuretuken.github.io/pc88canvas/)
 
 [作画開始（data2.txt）](https://bakuretuken.github.io/pc88canvas/index2.html)
