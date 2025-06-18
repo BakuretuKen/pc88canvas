@@ -12,14 +12,14 @@
 
 ### index.html（data1.txt）
 
-![PC88Canvas](img/01.png)  
-　↓  
+![PC88Canvas](img/01.png)
+　↓
 ![PC88Canvas](img/02.png)
 
 ### index10.html（data10.txt）
 
-![PC88Canvas](img/11.png)  
-　↓  
+![PC88Canvas](img/11.png)
+　↓
 ![PC88Canvas](img/12.png)
 
 ## フォーマット
@@ -46,3 +46,7 @@ P X,Y 色番号1 色番号2
 
 **色番号**
 0:黒 1:青 2:赤 3:紫 4:緑 5:水色 6:黄 7:白
+
+**License**
+This Program is licensed under the MIT License.
+**Note**: Sample images used include copyrighted materials.
