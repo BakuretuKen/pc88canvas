@@ -1,4 +1,5 @@
 import { loadData, formatLineText } from './loadData';
+import { colorPalette } from './canvasPalette';
 
 export default async function canvasLine(canvas: HTMLCanvasElement, allLines: string[]): Promise<void>
 {
@@ -17,6 +18,14 @@ export default async function canvasLine(canvas: HTMLCanvasElement, allLines: st
             if (lines.length < 2) continue;
             if (lines[0][0] === 'P') continue;
             if (lines[0][0] === 'SET') continue;
+
+            if (lines[0][1] === undefined) {
+                console.log("line: "+lines[0][0]);
+                const color = colorPalette.colors[Number(lines[0][0])];
+                ctx.strokeStyle = `rgba(${color[0]}, ${color[1]}, ${color[2]}, ${color[3] / 255})`;
+            } else {
+                ctx.strokeStyle = "black";
+            }
 
             ctx.beginPath();
             ctx.moveTo(Number(lines[0][0]), Number(lines[0][1]));

@@ -1,4 +1,3 @@
-// import { colors } from './colors';
 import { formatLineText } from './loadData';
 import { colorPalette } from './canvasPalette';
 
