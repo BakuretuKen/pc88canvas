@@ -10,17 +10,21 @@
 
 [作画開始（data10.txt）](https://bakuretuken.github.io/pc88canvas/index10.html)
 
+[作画開始（data11.txt）](https://bakuretuken.github.io/pc88canvas/index11.html)
+
 ### index.html（data1.txt）
 
-![PC88Canvas](img/01.png)
-　↓
+![PC88Canvas](img/01.png)<br />
+　↓<br />
 ![PC88Canvas](img/02.png)
 
-### index10.html（data10.txt）
+### index10.html（data11.txt）
 
-![PC88Canvas](img/11.png)
-　↓
-![PC88Canvas](img/12.png)
+![PC88Canvas](img/21.png)<br />
+　↓<br />
+![PC88Canvas](img/22.png)<br />
+　↓<br />
+![PC88Canvas](img/23.png)
 
 ## フォーマット
 
@@ -44,9 +48,9 @@ P 301,8 0 2
 P X,Y 色番号
 P X,Y 色番号1 色番号2
 
-**色番号**
+#### 色番号
 0:黒 1:青 2:赤 3:紫 4:緑 5:水色 6:黄 7:白
 
-**License**
-This Program is licensed under the MIT License.
+### License
+This Program is licensed under the MIT License.<br />
 **Note**: Sample images used include copyrighted materials.

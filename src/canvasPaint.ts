@@ -68,6 +68,10 @@ export default async function canvasPaint(canvas: HTMLCanvasElement, allLines: s
     }
 
     function match(a: number[], b: number[]) {
+        // 安全チェック: 配列がundefinedやnullの場合はfalseを返す
+        if (!a || !b || a.length < 4 || b.length < 4) {
+            return false;
+        }
         return a[0] === b[0] &&
                 a[1] === b[1] &&
                 a[2] === b[2] &&
@@ -75,6 +79,10 @@ export default async function canvasPaint(canvas: HTMLCanvasElement, allLines: s
     }
 
     function matchPixel(data: Uint8ClampedArray, x: number, y: number, target: number[]) {
+        // 安全チェック: target配列がundefinedやnullの場合はfalseを返す
+        if (!target || target.length < 4) {
+            return false;
+        }
         const i = (y * w + x) * 4;
         return data[i]   === target[0] &&
                 data[i+1] === target[1] &&
@@ -94,8 +102,12 @@ export default async function canvasPaint(canvas: HTMLCanvasElement, allLines: s
             const colorIndex1 = Number(lines[2][0]);
             const colorIndex2 = Number(lines[3]?.[0] || colorIndex1); // 2つ目の色が指定されていない場合は1つ目の色を使用
 
-            // console.log("P (" + x + "," + y + ") " + colorIndex1 + " " + colorIndex2);
-            await floodFillJ(x, y, colorPalette.colors[colorIndex1], colorPalette.colors[colorIndex2], 1);
+            // 色番号の範囲チェックとデフォルト値の設定
+            const fillColor1 = colorPalette.colors[colorIndex1] || [0, 0, 0, 255]; // 無効な場合は黒
+            const fillColor2 = colorPalette.colors[colorIndex2] || [0, 0, 0, 255]; // 無効な場合は黒
+
+            console.log("P (" + x + "," + y + ") " + colorIndex1 + " " + colorIndex2);
+            await floodFillJ(x, y, fillColor1, fillColor2, 1);
         }
     }
 }
