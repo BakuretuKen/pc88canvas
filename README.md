@@ -18,7 +18,7 @@
 　↓<br />
 ![PC88Canvas](img/02.png)
 
-### index10.html（data11.txt）
+### index11.html（data11.txt）
 
 ![PC88Canvas](img/21.png)<br />
 　↓<br />
