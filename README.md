@@ -4,13 +4,15 @@
 
 パソコン黎明期（？） NEC PC-8801 のアドベンチャーゲーム作画処理を JavaScript で再現。
 
-[作画開始（data.txt）](https://bakuretuken.github.io/pc88canvas/)
+[サラダの国のトマト姫 1（data.txt）](https://bakuretuken.github.io/pc88canvas/)
 
-[作画開始（data2.txt）](https://bakuretuken.github.io/pc88canvas/index2.html)
+[サラダの国のトマト姫 2（data2.txt）](https://bakuretuken.github.io/pc88canvas/index2.html)
 
-[作画開始（data10.txt）](https://bakuretuken.github.io/pc88canvas/index10.html)
+[ポートピア連続殺人事件 1（data21.txt）](https://bakuretuken.github.io/pc88canvas/index21.html)
 
-[作画開始（data11.txt）](https://bakuretuken.github.io/pc88canvas/index11.html)
+[ジークアクス 1（data10.txt）](https://bakuretuken.github.io/pc88canvas/index10.html)
+
+[ジークアクス 2（data11.txt）](https://bakuretuken.github.io/pc88canvas/index11.html)
 
 ### index.html（data1.txt）
 
