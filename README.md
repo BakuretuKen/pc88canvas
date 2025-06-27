@@ -10,9 +10,9 @@
 
 [ポートピア連続殺人事件 1（data21.txt）](https://bakuretuken.github.io/pc88canvas/index21.html)
 
-[ジークアクス 1（data10.txt）](https://bakuretuken.github.io/pc88canvas/index10.html)
+[機動戦士ジークアクス 1（data10.txt）](https://bakuretuken.github.io/pc88canvas/index10.html)
 
-[ジークアクス 2（data11.txt）](https://bakuretuken.github.io/pc88canvas/index11.html)
+[機動戦士ジークアクス 2（data11.txt）](https://bakuretuken.github.io/pc88canvas/index11.html)
 
 ### index.html（data1.txt）
 
